@@ -4,19 +4,19 @@
 int main() {
 	int a,b,sab,cab,vab;
 setlocale (LC_CTYPE,"ua");
-printf("\n Обчислення сумми,цiлої частини вiд дiлення,вiднiмання. \n");
-printf("\n Число a=");
+printf("\n РћР±С‡РёСЃР»РµРЅРЅСЏ СЃСѓРјРјРё,С†С–Р»РѕС— С‡Р°СЃС‚РёРЅРё РІС–Рґ РґС–Р»РµРЅРЅСЏ,РІС–РґРЅС–РјР°РЅРЅСЏ. \n");
+printf("\n Р§РёСЃР»Рѕ a=");
 scanf("%d",&a);
-printf("\n Число b=");
+printf("\n Р§РёСЃР»Рѕ b=");
 scanf("%d",&b);
 sab=a+b;
-printf("\n Сумма a та b = ");
+printf("\n РЎСѓРјРјР° a С‚Р° b = ");
 printf("%d\n", sab);
 cab=a/b;
-printf("\n Цiла частка вiд  дiлення a на b = ");
+printf("\n Р¦С–Р»Р° С‡Р°СЃС‚РєР° РІС–Рґ РґС–Р»РµРЅРЅСЏ a РЅР° b = ");
 printf("%d\n",cab);
 vab=a-b;
-printf("\n Вiднiмання a вiд b = ");
+printf("\n Р’С–РґРЅС–РјР°РЅРЅСЏ a РІС–Рґ b = ");
 printf("%d\n",vab);
 printf("\n");
 return 0;
