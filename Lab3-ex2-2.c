@@ -5,52 +5,53 @@
 int main() {
 	setlocale (LC_CTYPE,"ua");
 	int n;
-	printf(" Введiть порядковий номер мiсяця в роцi ( Вiд 1 до 12 ) :  " );
+	printf(" Р’РІРµРґiС‚СЊ РїРѕСЂСЏРґРєРѕРІРёР№ РЅРѕРјРµСЂ РјiСЃСЏС†СЏ РІ СЂРѕС†i ( Р’iРґ 1 РґРѕ 12 ) :  " );
 	scanf("%d",&n);
 	if ( n<1 || n>12 ) {
-		printf ( " Мiсяця з таким порядковим номером не iснує" ); printf ( "\n" ); return 0 ; }
-	printf(" Число, яке ви ввели  -  " );
+		printf ( " РњiСЃСЏС†СЏ Р· С‚Р°РєРёРј РїРѕСЂСЏРґРєРѕРІРёРј РЅРѕРјРµСЂРѕРј РЅРµ iСЃРЅСѓС”" ); printf ( "\n" ); return 0 ; }
+	printf(" Р§РёСЃР»Рѕ, СЏРєРµ РІРё РІРІРµР»Рё  -  " );
 	printf("%d", n );
-	printf (" \n Мiсяць, якому це число вiдповiдає :");
+	printf (" \n РњiСЃСЏС†СЊ, СЏРєРѕРјСѓ С†Рµ С‡РёСЃР»Рѕ РІiРґРїРѕРІiРґР°С” :");
 switch (n) {
     case 1:
-        printf(" Сiчень");
+        printf(" РЎiС‡РµРЅСЊ");
         break;
     case 2:
-        printf(" Лютий");
+        printf(" Р›СЋС‚РёР№");
         break;
     case 3:
-        printf(" Березень");
+        printf(" Р‘РµСЂРµР·РµРЅСЊ");
         break;
     case 4:
-        printf(" Квiтень");
+        printf(" РљРІiС‚РµРЅСЊ");
         break;
     case 5:
-        printf(" Травень");
+        printf(" РўСЂР°РІРµРЅСЊ");
         break;
     case 6:
-        printf(" Червень");
+        printf(" Р§РµСЂРІРµРЅСЊ");
         break;
     case 7:
-        printf(" Липень");
+        printf(" Р›РёРїРµРЅСЊ");
         break;
     case 8:
-        printf(" Серпень");
+        printf(" РЎРµСЂРїРµРЅСЊ");
         break;
     case 9:
-        printf(" Вересень");
+        printf(" Р’РµСЂРµСЃРµРЅСЊ");
         break;
     case 10:
-        printf(" Жовтень");
+        printf(" Р–РѕРІС‚РµРЅСЊ");
         break;
     case 11:
-        printf(" Листопад");
+        printf(" Р›РёСЃС‚РѕРїР°Рґ");
         break;
     case 12:
-        printf(" Грудень");
+        printf(" Р“СЂСѓРґРµРЅСЊ");
         break;
     }
 	printf ( "\n" );
     return 0;
 }
  
+
